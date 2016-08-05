@@ -1,0 +1,13 @@
+//le fichier est ouvrable 
+
+$list =array( array('aaaa','y'),array('bbbb'));
+$list =array( array('aaaa','y'),array('bbbb'));
+echo "ok";
+
+foreach ($list as $fields)
+{
+
+print_r($fields);
+
+
+fputcsv($fp,$fields);
